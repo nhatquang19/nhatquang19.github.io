@@ -1,0 +1,75 @@
+$cl-white: #fff;
+$cl-black: #000;
+$cl-yellow: #e3ca83;
+
+.fs-12 {
+  font-size: 12px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.fs-35 {
+  font-size: 35px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.fs-50 {
+  font-size: 50px;
+}
+.fs-60 {
+  font-size: 60px;
+}
+.fs-80 {
+  font-size: 80px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.cl-white {
+  color: $cl-white;
+}
+.cl-yellow {
+  color: $cl-yellow;
+}
+.pt-200 {
+  padding-top: 200px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.pt-250 {
+  padding-top: 250px;
+}
+.pb-50 {
+  padding-bottom: 50px;
+}
+.spin_circle {
+  animation-name: spin;
+  animation-duration: 10000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
